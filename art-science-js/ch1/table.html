@@ -1,0 +1,76 @@
+<!DOCTYPE html P1UBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	
+	<link rel="stylesheet" href="../src/chapter01/columndrag.css" type="text/css" />
+	
+	<script type="text/javascript" src="js/table.sortable.js"></script>
+	<script type="text/javascript" src="js/columndrag.js"></script>
+	<script type="text/javascript">	
+		window.onload = function () {
+		//	var sales = new TableSort("sales");
+			var sales = new ColumnDrag("sales");
+		}
+	</script>
+	
+</head>
+<body>
+	<table id="sales" summary="Quarterly sales figures for competing companies. The figures are stated in millions of dollars.">
+		<caption>Quarterly Sales*</caption>
+		<col />
+		<col />
+		<col />
+		<col />
+		<col />
+		<thead>
+			<tr>
+				<th scope="col">Companies</th>
+				<th scope="col">Q1</th>
+				<th scope="col">Q2</th>
+				<th scope="col">Q3</th>
+				<th scope="col">Q4</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">Company A</th>
+				<td>$621</td>
+				<td>$942</td>
+				<td>$224</td>
+				<td>$486</td>
+			</tr>
+			<tr>
+				<th scope="row">Company B</th>
+				<td>$147</td>
+				<td>$1,325</td>
+				<td>$683</td>
+				<td>$524</td>
+			</tr>
+			<tr>
+				<th scope="row">Company C</th>
+				<td>$135</td>
+				<td>$2,342</td>
+				<td>$33</td>
+				<td>$464</td>
+			</tr>
+			<tr>
+				<th scope="row">Company D</th>
+				<td>$164</td>
+				<td>$332</td>
+				<td>$331</td>
+				<td>$438</td>
+			</tr>
+			<tr>
+				<th scope="row">Company E</th>
+				<td>$199</td>
+				<td>$902</td>
+				<td>$336</td>
+				<td>$1,427</td>
+			</tr>
+		</tbody>
+	</table>
+	<p class="footnote">*Stated in millions of dollars</p>
+</body>
+</html>
