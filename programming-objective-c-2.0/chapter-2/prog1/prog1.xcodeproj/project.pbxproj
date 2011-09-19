@@ -227,6 +227,7 @@
 				DA51D33013AFE85500CAA5A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
