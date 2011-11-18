@@ -1,0 +1,93 @@
+Tprog4.2
+v7
+r0
+t343283936.971949
+cCheck dependencies
+cProcessPCH /var/folders/Bq/BqpKU0guHCOWDqz+FUgEeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prog4.2_Prefix-dgiildyajcbpridllsipudhanevw/prog4.2_Prefix.pch.gch prog4.2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/prog4.2.build/Debug/prog4.2.build/Objects-normal/i386/prog4.2.o /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/prog4.2.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug/prog4.2 normal i386
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E5656FF0000000000B38E90
+t1314281215
+s11767440
+
+N/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug/prog4.2
+t1321591136
+s13284
+
+N/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/Objects-normal/i386/prog4.2.LinkFileList
+c000000004EC5DD5800000000000000A2
+t1321590104
+s162
+
+N/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/Objects-normal/i386/prog4.2.o
+t1321591136
+s6576
+
+N/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/prog4.2.m
+c000000004EC5E23F0000000000000220
+t1321591359
+s544
+i<Foundation/Foundation.h>
+
+N/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/prog4.2_Prefix.pch
+c000000004EC5DD4E000000000000009C
+t1321590094
+s156
+i<Foundation/Foundation.h>
+
+N/var/folders/Bq/BqpKU0guHCOWDqz+FUgEeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prog4.2_Prefix-dgiildyajcbpridllsipudhanevw/prog4.2_Prefix.pch.gch
+t1321590106
+s29757292
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies343283936#343283936#0(0"0(0#1#0"2461524464#0"0#
+
+CCompileC build/prog4.2.build/Debug/prog4.2.build/Objects-normal/i386/prog4.2.o /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/prog4.2.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s343283936.662231
+e343283936.944053
+r1
+xCompileC
+xbuild/prog4.2.build/Debug/prog4.2.build/Objects-normal/i386/prog4.2.o
+x/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/prog4.2.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/prog4.2.m343283936#343283936#0(0"0(0#0#101"/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/prog4.2.m2461524464#2033"    cd /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/prog4.2-generated-files.hmap -I/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/prog4.2-own-target-headers.hmap -I/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/prog4.2-all-target-headers.hmap -iquote /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/prog4.2-project-headers.hmap -F/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug -I/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug/include -I/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/DerivedSources/i386 -I/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/DerivedSources -include /var/folders/Bq/BqpKU0guHCOWDqz+FUgEeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prog4.2_Prefix-dgiildyajcbpridllsipudhanevw/prog4.2_Prefix.pch -c /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/prog4.2.m -o /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/Objects-normal/i386/prog4.2.o0#
+
+CLd /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug/prog4.2 normal i386
+s343283936.944179
+e343283936.971887
+r1
+xLd
+x/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug/prog4.2
+xnormal
+xi386
+lSLF07#2@116"Link /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug/prog4.2343283936#343283936#0(0"0(0#0#0"2461524464#781"    cd /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug -F/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug -filelist /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/Objects-normal/i386/prog4.2.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug/prog4.20#
+
+CProcessPCH /var/folders/Bq/BqpKU0guHCOWDqz+FUgEeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prog4.2_Prefix-dgiildyajcbpridllsipudhanevw/prog4.2_Prefix.pch.gch prog4.2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s343282904.041368
+e343282907.008904
+r1
+xProcessPCH
+x/var/folders/Bq/BqpKU0guHCOWDqz+FUgEeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prog4.2_Prefix-dgiildyajcbpridllsipudhanevw/prog4.2_Prefix.pch.gch
+xprog4.2_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile prog4.2_Prefix.pch343282904#343282907#0(0"0(0#0#110"/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/prog4.2_Prefix.pch4742288#1882"    cd /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/prog4.2-generated-files.hmap -I/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/prog4.2-own-target-headers.hmap -I/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/prog4.2-all-target-headers.hmap -iquote /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/prog4.2-project-headers.hmap -F/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug -I/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/Debug/include -I/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/DerivedSources/i386 -I/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/build/prog4.2.build/Debug/prog4.2.build/DerivedSources -c /Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.2/prog4.2_Prefix.pch -o /var/folders/Bq/BqpKU0guHCOWDqz+FUgEeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prog4.2_Prefix-dgiildyajcbpridllsipudhanevw/prog4.2_Prefix.pch.gch0#
+
