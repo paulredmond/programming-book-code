@@ -303,8 +303,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -322,7 +320,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DAA63BB2147637C500C2A24D</string>
+										<string>DAA63BBF1476381000C2A24D</string>
 										<key>history</key>
 										<array>
 											<string>DAA63B9B147634BE00C2A24D</string>
@@ -347,6 +345,8 @@
 							<string>650pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -527,8 +527,8 @@
 		<string>DAA63BBE147637C500C2A24D</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DAA63B9F147634BE00C2A24D</string>
-		<string>/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.6/prog4.6.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/paul/Development/programming-book-code/programming-objective-c-2.0/chapter-4/prog4.6/prog4.6.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 120 1280 882 0 0 1280 1002 </string>
