@@ -1,0 +1,13 @@
+{
+	FilesToRename = {
+		"test_Prefix.pch" = "�PROJECTNAME�_Prefix.pch";
+		"test.1" = "�PROJECTNAME�.1";
+        "main.m" = "�PROJECTNAME�.m";
+	};
+	FilesToMacroExpand = (
+		"�PROJECTNAME�.1",
+		"�PROJECTNAME�_Prefix.pch",
+        "�PROJECTNAME�.m",
+	);
+	Description = "This project builds a command-line tool that links against the Foundation library.";
+}
