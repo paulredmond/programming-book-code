@@ -19,6 +19,12 @@
 	height = h;
 }
 
+-(void) setOrigin:(XYPoint *)pt
+{
+    origin = [[XYPoint alloc] init];
+    [origin setX: pt.x andY: pt.y];
+}
+
 -(int) area
 {
 	return width * height;
@@ -27,6 +33,11 @@
 -(int) perimeter
 {
 	return (width + height) * 2;
+}
+
+-(XYPoint *) origin
+{
+    return origin;
 }
 
 @end
