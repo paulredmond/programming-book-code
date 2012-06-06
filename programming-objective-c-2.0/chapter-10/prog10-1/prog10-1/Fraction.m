@@ -1,0 +1,40 @@
+//
+//  Fraction.m
+//  prog9
+//
+//  Created by Paul Redmond on 6/5/12.
+//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//
+
+#import "Fraction.h"
+
+@implementation Fraction
+
+-(Fraction *) initWith: (int) n: (int) d
+{
+    self = [super init];
+    
+    if (self) {
+        [self setNumerator: n];
+        [self setDenominator: d];
+    }
+    
+    return self;
+}
+
+-(void) print
+{
+	NSLog(@"%i/%d", numerator, denominator);
+}
+
+-(void) setNumerator: (int) n
+{
+	numerator = n;
+}
+
+-(void) setDenominator: (int) d
+{
+	denominator = d;
+}
+
+@end
