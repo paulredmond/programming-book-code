@@ -12,6 +12,7 @@
 		DA6C28581575EE1F00996893 /* prog9.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DA6C28571575EE1F00996893 /* prog9.1 */; };
 		DA6C28661575EE7600996893 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6C28651575EE7600996893 /* Square.m */; };
 		DA6C28691575EEB700996893 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6C28671575EEB700996893 /* Rectangle.m */; };
+		DAF573F7157F21E2008C92B6 /* XYPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF573F6157F21E2008C92B6 /* XYPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		DA6C28651575EE7600996893 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
 		DA6C28671575EEB700996893 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
 		DA6C28681575EEB700996893 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		DAF573F5157F21E2008C92B6 /* XYPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPoint.h; sourceTree = "<group>"; };
+		DAF573F6157F21E2008C92B6 /* XYPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		DA6C28521575EE1E00996893 /* prog9 */ = {
 			isa = PBXGroup;
 			children = (
+				DAF573F5157F21E2008C92B6 /* XYPoint.h */,
+				DAF573F6157F21E2008C92B6 /* XYPoint.m */,
 				DA6C28531575EE1E00996893 /* main.m */,
 				DA6C28571575EE1F00996893 /* prog9.1 */,
 				DA6C28551575EE1E00996893 /* Supporting Files */,
@@ -151,6 +156,7 @@
 				DA6C28541575EE1E00996893 /* main.m in Sources */,
 				DA6C28661575EE7600996893 /* Square.m in Sources */,
 				DA6C28691575EEB700996893 /* Rectangle.m in Sources */,
+				DAF573F7157F21E2008C92B6 /* XYPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +245,7 @@
 				DA6C285D1575EE1F00996893 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

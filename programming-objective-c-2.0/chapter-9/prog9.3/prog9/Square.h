@@ -1,13 +1,17 @@
 //
 //  Square.h
-//  prog9
+//  prog8.2
 //
-//  Created by Paul Redmond on 5/29/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Paul Redmond on 4/30/12.
+//  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Rectangle.h"
 
-@interface Square : NSObject
+
+@interface Square: Rectangle
+
+-(void) setSide: (int) s;
+-(int) side;
 
 @end
